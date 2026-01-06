@@ -1,0 +1,17 @@
+2026-01-06 19:30:31 | 127.0.0.1:49628 | GET example.com:80 / | BLOCKED | 114 bytes
+2026-01-06 19:30:43 | 127.0.0.1:45976 | GET iana.org:80 / | ALLOWED | 486 bytes
+2026-01-06 19:47:23 | 127.0.0.1:53032 | CONNECT example.com:443 - | BLOCKED | 0 bytes
+2026-01-06 19:48:39 | 127.0.0.1:58474 | CONNECT iana.com:443 - | ALLOWED | 0 bytes
+2026-01-06 19:49:39 | 127.0.0.1:59050 | CONNECT example.com:443 - | ALLOWED | 0 bytes
+2026-01-06 19:50:15 | 127.0.0.1:44484 | CONNECT example.com:443 - | BLOCKED | 0 bytes
+2026-01-06 20:32:18 | 127.0.0.1:42514 | GET example.com:80 / | BLOCKED | 114 bytes
+2026-01-06 20:32:19 | 127.0.0.1:42530 | HEAD example.com:80 / | BLOCKED | 114 bytes
+2026-01-06 20:32:21 | 127.0.0.1:42524 | GET iana.org:80 / | ALLOWED | 486 bytes
+2026-01-06 20:32:52 | 127.0.0.1:42364 | GET example.com:80 / | BLOCKED | 114 bytes
+2026-01-06 20:33:05 | 127.0.0.1:53274 | GET iana.org:80 / | ALLOWED | 486 bytes
+2026-01-06 20:33:12 | 127.0.0.1:51508 | HEAD example.com:80 / | BLOCKED | 114 bytes
+2026-01-06 20:33:47 | 127.0.0.1:58278 | GET iana.org:80 / | ALLOWED | 486 bytes
+2026-01-06 20:33:49 | 127.0.0.1:58294 | GET iana.org:80 / | ALLOWED | 486 bytes
+2026-01-06 20:33:51 | 127.0.0.1:58296 | GET iana.org:80 / | ALLOWED | 486 bytes
+2026-01-06 20:34:19 | 127.0.0.1:35914 | CONNECT example.com:443 - | BLOCKED | 0 bytes
+2026-01-06 20:34:31 | 127.0.0.1:42514 | CONNECT iana.org:443 - | ALLOWED | 0 bytes

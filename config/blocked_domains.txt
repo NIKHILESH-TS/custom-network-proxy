@@ -1,0 +1,3 @@
+# Blocked domains
+example.com
+iana.org
