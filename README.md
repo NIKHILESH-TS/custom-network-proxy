@@ -27,14 +27,13 @@ The project demonstrates core systems and networking concepts such as:
 ---
 
 ## Project Structure
- 
-proxy-project/
- ├── src/ # Proxy server source code
- ├── config/ # Configuration files (blocked domains)
- ├── logs/ # Proxy logs
- ├── tests/ # Test commands and examples
- ├── docs/ # Design documentation
- └── README.md
+ proxy-project/
+├── src/ # Proxy server source code
+├── config/ # Configuration files (blocked domains)
+├── logs/ # Proxy logs
+├── tests/ # Test commands and examples
+├── docs/ # Design documentation
+└── README.md
 
 
 ---
