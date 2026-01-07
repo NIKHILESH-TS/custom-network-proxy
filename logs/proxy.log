@@ -15,3 +15,10 @@
 2026-01-06 20:33:51 | 127.0.0.1:58296 | GET iana.org:80 / | ALLOWED | 486 bytes
 2026-01-06 20:34:19 | 127.0.0.1:35914 | CONNECT example.com:443 - | BLOCKED | 0 bytes
 2026-01-06 20:34:31 | 127.0.0.1:42514 | CONNECT iana.org:443 - | ALLOWED | 0 bytes
+2026-01-07 13:44:46 | 127.0.0.1:37314 | GET example.com:80 / | BLOCKED | 114 bytes
+2026-01-07 13:47:19 | 127.0.0.1:60816 | GET iana.org:80 / | ALLOWED | 486 bytes
+2026-01-07 13:48:21 | 127.0.0.1:44464 | CONNECT example.com:443 - | BLOCKED | 0 bytes
+2026-01-07 13:49:16 | 127.0.0.1:43260 | CONNECT iana.org:443 - | ALLOWED | 0 bytes
+2026-01-07 13:51:52 | 127.0.0.1:35768 | GET iana.org:80 / | ALLOWED | 486 bytes
+2026-01-07 13:51:55 | 127.0.0.1:35776 | GET iana.org:80 / | ALLOWED | 486 bytes
+2026-01-07 13:51:59 | 127.0.0.1:35792 | GET iana.org:80 / | ALLOWED | 486 bytes

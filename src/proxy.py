@@ -147,12 +147,7 @@ def handle_client(client_socket, client_addr):
             return
 
         new_request_line = f"{method} {path} {version}\r\n"
-        filtered_headers = []
-        for h in lines[1:]:
-            if not h.lower().startswith("proxy-connection"):
-        	filtered_headers.append(h)
-
-	remaining_headers = "\r\n".join(filtered_headers)
+        remaining_headers = "\r\n".join(lines[1:])
         new_request = (
             new_request_line + remaining_headers + "\r\n\r\n"
         ).encode()

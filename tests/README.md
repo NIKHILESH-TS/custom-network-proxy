@@ -1,6 +1,6 @@
 # Proxy Server Test Commands
 
-## HTTP Tests
+HTTP Tests
 ```bash
 	curl -x 127.0.0.1:8888 http://example.com
 	curl -x 127.0.0.1:8888 http://iana.org

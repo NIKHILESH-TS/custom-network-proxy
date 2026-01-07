@@ -126,6 +126,34 @@ HTTPS is tunneled transparently using CONNECT
 
 No sensitive data is logged
 
+
+---
+
+## Demonstration & Evidence
+
+The following screenshots demonstrate correct functionality of the proxy
+server under different scenarios.
+
+### HTTP Request — Blocked Domain
+![HTTP Blocked](docs/screenshots/http_blocked.png)
+
+### HTTP Request — Allowed Domain
+![HTTP Allowed](docs/screenshots/http_allowed.png)
+
+### HTTPS Request — CONNECT Allowed
+![HTTPS Allowed](docs/screenshots/https_allowed.png)
+
+### HTTPS Request — CONNECT Blocked
+![HTTPS Blocked](docs/screenshots/https_blocked.png)
+
+### Concurrent Client Handling
+![Concurrent Requests](docs/screenshots/concurrent_requests.png)
+
+### Logging Output
+![Proxy Logs](docs/screenshots/logs_output.png)
+
+---
+
 Author
 
 Nikhilesh
